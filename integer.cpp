@@ -249,6 +249,19 @@ cin >> K >> N;
 C = (((K + N) % 7) - 1);
 cout << C ;
 */
+  
+ /*integer 30
+int A;
+int B;
+int K;
+double C;
+cout << "naiti vso";
+cin >> A;
+C = (((A -1) / 100) + 1);
+cout << C;
+*/
+  
 
+  
 }
 
