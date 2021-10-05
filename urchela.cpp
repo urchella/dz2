@@ -1,7 +1,8 @@
-﻿//подключение библиотеки
+/*Шульга Юрий П43021*/
 #include <iostream>
 using namespace std;
 int main() {
+	setlocale(LC_ALL, "Russian");
 
 /*	int a;
 	int b;
@@ -365,6 +366,25 @@ x3 = y4 / 10;
 cout << x1 << endl;
 cout << x3 << endl;
 */
+
+	
+	
+	
+/*Шульга Юрий П43021*/
+	
+double a;
+double h;
+double S;
+cout << "Вычисление площади треугольника " << endl;
+cout << "Введите исходные данные :" << endl;
+cout << "Основание (см) -> ";
+cin >> a;
+cout << "Высота(см) -> ";
+cin >> h;
+S = (a * h) / 2;
+cout << "Площадь треугольника (см) -> ";
+cout << S ;
+cout << "кв.см. ";
 
 
 
