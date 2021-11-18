@@ -1,0 +1,101 @@
+/*Шульга Юрий П43021*/
+#include <iostream>
+#include <ctime>
+using namespace std;
+int main(){
+ setlocale(LC_ALL, "Russian");
+  /*Введите одномерный целочисленный массив. Найдите наибольший нечетный элемент.
+
+  const int n = 10;
+  int a[n];
+  int b = 0;
+  srand(time(0));
+  for(int i = 0;i < n;i++){
+    a[i]=rand() % 21;}
+
+  for(int i = 0;i < n;i++){
+    cout << a[i] << ' ';}
+  int max = 0;
+ for(int i = 0;i < n;i++){
+      if(a[i] % 2 ==1 && a[i] > max){
+        max = a[i];}
+    }
+cout << endl << max << endl;
+*/
+
+
+/*Найдите сумму отрицательных элементов массива.
+const int n = 10;
+  int a[n];
+  int sum = 0;
+  srand(time(0));
+  for(int i = 0;i < n;i++){
+    a[i]=rand() % 101 - 50;}
+
+  for(int i = 0;i < n;i++){
+    cout << a[i] << ' ';}
+    cout << endl;
+  for(int i = 0;i < n;i++){
+    if(a[i] < 0){sum = sum + a[i];}
+  }
+  cout << sum << endl;
+  */
+
+  /*Найдите наибольший элемент массива.
+  const int n = 10;
+  int a[n];
+  int sum = 0;
+  srand(time(0));
+  for(int i = 0;i < n;i++){
+    a[i]=rand() % 101 - 50;}
+
+  for(int i = 0;i < n;i++){
+    cout << a[i] << ' ';}
+    cout << endl;
+   int max = 0;
+    for(int i = 0;i < n;i++){
+      if(a[i] > max){max = a[i];}
+    }
+    cout << endl << max << endl;
+    */
+    /*Найдите сумму номеров минимального и максимального элементов.
+                        const int n = 5;
+                      int a[n];
+                      int sum = 0;
+                      srand(time(0));
+                      for(int i = 0;i < n;i++){
+                        a[i]=rand() % 21;}
+
+                      for(int i = 0;i < n;i++){
+                        cout << a[i] << ' ';}
+                        cout << endl;
+                      int max = a[0];
+                        for(int i = 0;i < n;i++){
+                          if(a[i] > max){max = i;}
+                          else if(a[i] == max){max = i;}
+                        }
+                          int min = a[0];
+                        for(int i = 0;i < n;i++){
+                          if(a[i] < min){min = i;}
+                        }
+                    cout << endl << max << endl << min << endl;*/
+
+
+/*Найдите минимальный по модулю элемент массива.
+const int n = 5;
+ int a[n];
+ int sum = 0;
+ srand(time(0));
+ for(int i = 0;i < n;i++){
+ a[i]=rand() % 101 - 50;}
+
+ for(int i = 0;i < n;i++){
+ cout << a[i] << ' ';}
+ cout << endl;
+int min = a[0];
+for(int i = 0;i < n;i++){
+if(abs(a[i]) < abs(min)){min = a[i];}
+}
+cout << min << endl;
+*/
+ }
